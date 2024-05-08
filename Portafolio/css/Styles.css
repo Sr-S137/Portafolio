@@ -1,0 +1,165 @@
+/* Estilos de la página */
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Barra de navegación */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(0, 81, 255);
+    color: #fff;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Alinea los elementos a la izquierda*/
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Aplica un margen izquierdo*/
+}
+nav ul li:last-child a {
+    margin-right: 40px; /*Margen derecho para el enlace del último elemento*/
+}
+nav ul li.left {
+    float: left; /*Alinear elpemento a la izquierda*/
+    margin-left: 0; /*Eliminar margen izquierdo*/
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding-top: 100px; /*Agrega el espacio entre el contenido y la barra de navegación*/
+}
+section {
+    border: 1px solid red;
+    padding: 20px;
+}
+/*Estilos para las secciones*/
+#about {
+    grid-column: span 2; /*Hacer que tome 2 columnas en vez de una*/
+    background-color: rgb(0, 183, 255);
+    border: 1px solid #0011ff;
+}
+#contact {
+    background-color: rgb(3, 135, 212);
+    border: 1px solid blue;
+}
+#services {
+    background-color: rgb(3, 135, 212);
+    border: 1px solid blue;
+}
+#projects {
+    background-color: rgb(3, 135, 212);
+    border: 1px solid blue;
+}
+.project-img img{
+    width: 200px;
+    height: 125px;
+    display: flex;
+    margin-top: 15px;
+    margin: auto;
+}
+#education {
+    background-color: rgb(3, 135, 212);
+    border: 1px solid blue;
+    justify-content: center;
+}
+.certifi {
+    text-align: center;
+}
+.certif-img img {
+    width: 150px;
+    height: 75px;
+    display: flex;
+    margin: auto;
+}
+#skills {
+    background-color: rgb(3, 135, 212);
+    border: 1px solid blue;
+}
+#experience {
+    background-color: rgb(3, 135, 212);
+    border: 1px solid blue;
+}
+.section-AB {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.AB-text {
+    grid-column: 1;
+    text-align: justify;
+}
+.AB-IMG {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AB-IMG img {
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+/*Sección de proyectos*/
+#projects {
+    display: grid;
+    grid-gap: 20px;
+}
+.project-info {
+    text-align: justify  /*Justificar el texto*/;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/*Estilos para las imagenes*/
+.certimg-t2 {
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.certimg-t2 img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 150px;
+    height: 150px;
+}
+p {
+    font-size: 15pt;
+}
+h3 {
+    font-size: 18pt;
+}
+h2 {
+    text-align: center;
+}
+iframe {
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    align-content: center;
+}
