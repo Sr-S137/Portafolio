@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/chat/css/styles.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <header>
+        <h1>Anthony Sáurez García</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Volver al menú principal</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="data">
+            <label>Que servicio desea contratar: <input list="datalist"/></label>
+                <datalist id="datalist">
+                    <option value="Creación de página web"></option>
+                    <option value="Soporte de software"></option>
+                    <option value="Armado de computadoras"></option>
+                    <option value="Limpieza de computadoras"></option>
+                    <option value="Cambio de pasta termica"></option>
+                    <option value="Optimización básica para computadoras"></option>
+                    <option value="Asesoramiento en hardware"></option>
+                </datalist>
+        </div>
+        <div class="chat">
+            <h2>Chat</h2>
+            <div id="post-form">
+                <textarea id="post-text" placeholder="Escribe"></textarea>
+                <br>
+                <input type="file" id="post-file">
+                <br>
+                <button onclick="addPost()">Publicar</button>
+            </div>
+            <div id="posts"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="multi">
+            <video autoplay loop width="640" height="360" controls>
+                <source src="/img/mp4-1280.mp4" type="video/mp4">
+            </video>
+            <br>
+            <audio src="/img/01. Faint Glow.mp3" controls loop></audio>
+        </div>
+        <div class="vali">
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                        alt="¡CSS Válido!" />
+                </a>
+            </p>
+        </div>
+    </footer>
+    <script src="/chat/js/script.js"></script>
+</body>
+</html>

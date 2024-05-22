@@ -10,7 +10,6 @@ h1 {
     margin: 0 auto;
     padding: 20px;
 }
-/* Barra de navegación */
 header {
     display: flex;
     justify-content: space-between;
@@ -45,6 +44,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+/* Barra de navegación */
 .content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -162,4 +162,19 @@ iframe {
     margin: auto;
     display: flex;
     align-content: center;
+}
+dl {
+    text-align: justify;
+    font-size: 18pt;
+    font-weight: bolder;
+}
+dt {
+    text-align: justify;
+    font-size: 16pt;
+    font-weight: 300;
+}
+dd {
+    text-align: justify;
+    font-size: 14pt;
+    font-weight: 100;
 }
